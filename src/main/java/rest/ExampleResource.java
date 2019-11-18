@@ -46,9 +46,7 @@ public class ExampleResource {
     @Context
     SecurityContext securityContext;
     
-    
-    private static EntityManagerFactory EMF = EMF_Creator.createEntityManagerFactory(EMF_Creator.DbSelector.DEV, EMF_Creator.Strategy.CREATE);
-    
+    private static final EntityManagerFactory EMF = EMF_Creator.createEntityManagerFactory(EMF_Creator.DbSelector.DEV, EMF_Creator.Strategy.CREATE);
     /**
      * Creates a new instance of ExampleResource
      */
