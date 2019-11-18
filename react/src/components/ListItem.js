@@ -40,8 +40,8 @@ class listItem extends React.Component{
 		return(
 		<div>
 		<form onSubmit ={(e) => {this.somefunction(e)}} >
-			<label> print a msg</label>
-			<input ref={input => this.newItem = input} placeholder="msg" id="msg" />
+			<label> Test en Get metode</label>
+			<input ref={input => this.newItem = input} placeholder="5" id="msg" />
 			<button type="submit"> add </button>
 		</form>
 		<button onClick={(e) => {this.CheckIfAdmin(e)}}> er du admin? </button> <button onClick={(e) => {this.CheckIfUser(e)}}> er du User? </button>

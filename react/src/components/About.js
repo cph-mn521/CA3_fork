@@ -4,7 +4,9 @@ import ListItem from './ListItem';
 const About = () => {
     return (
         <div>
-        <ListItem />
+        <p>
+        aboot
+        </p>
         </div>
     );
 }

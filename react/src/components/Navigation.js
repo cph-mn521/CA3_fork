@@ -14,6 +14,12 @@ const Navigation = () => {
             <li>
                 <NavLink to="/contact">Contact</NavLink>
             </li>
+            <li>
+                <NavLink to="/ListItem">API test</NavLink>
+            </li>
+            <li>
+                <a href="ca3/documentation/"> Documentation </a>
+            </li>
 
         </ul>
     );
